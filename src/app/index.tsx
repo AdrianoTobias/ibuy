@@ -17,6 +17,8 @@ export default function Index() {
         >
             Enviar parâmetro
         </Link>
+
+        <Link href={{ pathname:"/product/[id]", params: { id: '3' } }}>Abrir produto</Link>
     </View>
   )
 }
